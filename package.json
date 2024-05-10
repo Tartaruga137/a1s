@@ -1,0 +1,35 @@
+{
+  "name": "vet-clinic",
+  "version": "1.0.0",
+  "description": "API para cadastro de tutores e pets de um clínica veterinária",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0helison/0helison-VetClinic.git"
+  },
+  "keywords": [
+    "pets"
+  ],
+  "author": "Helison Pontes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0helison/0helison-VetClinic/issues"
+  },
+  "homepage": "https://github.com/0helison/0helison-VetClinic#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
